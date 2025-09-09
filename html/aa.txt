@@ -1,0 +1,105 @@
+<!-- <div class="forum-container">
+                    <div class="top-bar">
+                    <h1>
+                        My Forum
+                    </h1>
+                </div>
+                <div class="header">
+                    <h4 class="title">
+                        Thread 1
+                    </h4>
+                    <div class="bottom">
+                        <p class="timestamp">
+                            07/07/2024
+                        </p>
+                        <p class="comment-count">
+                            4 comments
+                        </p>
+                    </div>
+                </div>
+                <textarea name="" id=""></textarea>
+                <button>add comment</button>
+                <div class="comments">
+                    <div class="top-comment">
+                    <p class="user">
+                        Gaby
+                    </p>
+                    <p class="timestamp">
+                        07/06/2024
+                    </p>
+                </div>
+                <div class="comment-content">
+                    Comment text here
+                </div> -->
+             <!-- </div>  -->
+
+
+             .forum-container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.top-bar {
+    background-color: skyblue;
+    padding: 10px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.thread {
+    padding: 10px;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timestamp {
+    padding-right: 10px;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.comments {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.top-comment, .comment-content {
+    margin: 0;
+}
+
+.comment-content {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - JeniusAcademy</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-logo">JeniusAcademy</div>
+        <div class="navbar-button" id="navbarButton">
+            <div class="navbar-item"><a href="/html/home.html">Home</a></div>
+            <div class="navbar-item"><a href="/html/register.html">Register</a></div>
+            <div class="navbar-item"><a href="/html/subscription.html">Subscription</a></div>
+            <div class="navbar-item"><a href="/html/testimony.html">Testimony</a></div>
+            <div class="navbar-item"><a href="/html/learn.html">Learn</a></div>
+        </div>
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="register-container">
+        <div class="register-section">
+            <div class="register-header">
+                <h2>Register</h2>
+                <p>Get Started With JeniusAcademy</p>
+                <p>Create Your Account Here</p>
+            </div>
+            <form id="registerForm">
+                <div class="form-group-inline">
+                    <div class="form-group">
+                        <input type="text" id="firstName" placeholder="First Name">
+                        <span id="firstNameError" class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="surName" placeholder="Surname">
+                        <span id="surnameError" class="error-message"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email">
+                    <span id="emailError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phoneNumber" placeholder="Phone Number">
+                    <span id="phoneNumberError" class="error-message"></span>
+                </div>
+                <div class="form-group-inline">
+                    <div class="form-group">
+                        <input type="password" id="password" placeholder="Password">
+                        <span id="passwordError" class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                        <span id="confirmPasswordError" class="error-message"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="agreeTerms">
+                    <label for="agreeTerms">I Agree To The <a href="#">Terms Of Service</a> And <a href="#">Privacy Policy</a></label>
+                </div>
+                <button type="submit"> <a href="home.html"></a>REGISTER NOW</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-icons">
+            <div class="social-icon"><img src="/assets/instagram.png" alt="Instagram"></div>
+            <div class="social-icon"><img src="/assets/github.png" alt="Github"></div>
+            <div class="social-icon"><img src="/assets/discord.png" alt="Discord"></div>
+            <div class="social-icon"><img src="/assets/linkedin.png" alt="Linked In"></div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-title">JeniusAcademy</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Help</div>
+                <div class="footer-link">FAQ</div>
+                <div class="footer-link">Testimony</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Product</div>
+                <div class="footer-link">Subscription</div>
+                <div class="footer-link">Best Selling</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Contact Us</div>
+                <div class="footer-link">gabriel.jonathan@binus.ac.id</div>
+                <div class="footer-link">085271977635</div>
+            </div>
+        </div>
+        <hr class="footer-line">
+        <div class="footer-bottom">
+                <p class="footer-description">JeniusAcademy is an online learning platform that offers a seamless learning experience, personalized tutoring, diverse exercises, and a robust progress tracker to help students excel in their studies. With JeniusAcademy, users enjoy an engaging and efficient learning environment supported by advanced technology.</p>
+        </div>
+    </div>
+
+    <script src="/js/register.js"></script>
+</body>
+</html>

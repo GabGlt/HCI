@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenius Academy</title>
+    <link rel="stylesheet" href="/css/learn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">JeniusAcademy</div>
+        <div class="navbar-button" id="navbarButton">
+            <div class="navbar-item"><a href="/html/home.html">Home</a></div>
+            <div class="navbar-item"><a href="/html/register.html">Register</a></div>
+            <div class="navbar-item"><a href="/html/subscription.html">Subscription</a></div>
+            <div class="navbar-item"><a href="/html/testimony.html">Testimony</a></div>
+            <div class="navbar-item"><a href="/html/learn.html">Learn</a></div>
+        </div>
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="menu-selection">
+            <div class="material-menu">
+                <button id="materialButton" class="menu-btn">Material</button>
+            </div>
+            <div class="exercises-menu">
+                <button id="exercisesButton" class="menu-btn">Exercises</button>
+            </div>
+            <div class="forum-menu">
+                <button id="forumButton" class="menu-btn">Forum</button>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="/assets/MaterialVideo.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="material-container" id="material">
+                <div class="teacher">
+                    <h3 class="title-1">Teacher Info</h3>
+                    <img src="/assets/Teacher.jpg" alt="Teacher">
+                    <ul class="teacher-info">
+                        <li>Name : Liam Bruce</li>
+                        <li>Subject : Math </li>
+                        <li>Educational Background : Monash University </li>
+                    </ul>
+                </div>
+                <div class="learning">
+                    <h3 class="title-2">Learning Objective</h3> 
+                    <ul class="learning-objective">
+                        <li>Understand the basic concept of linear inequalities.</li>
+                        <li>Learn how to solve linear inequalities step-by-step.</li>
+                        <li>Interpret and graph the solutions of linear inequalities on a number line.</li>
+                        <li>Apply the principles of linear inequalities to solve real-world problems.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- <div class="exercises-container">
+                <h1>Exercises</h1>
+                <div class="quiz">
+                    <h2 id="question">Question goes here</h2>
+                    <div id="answer-buttons">
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 2</button>
+                        <button class="btn">Answer 3</button>
+                        <button class="btn">Answer 4</button>
+                        <button class="btn">Answer 5</button>
+                    </div>
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>     
+
+            <div class="forum" id="forum">
+                <h1>Discussion Forum</h1>
+                <div id="comments-container"></div>
+                <div class="new-comment">
+                    <textarea id="comment-input" placeholder="Enter your comment"></textarea>
+                    <button onclick="addComment()">Send comment</button>
+                </div>
+            </div> -->
+
+        </div> 
+    </div> 
+
+    <div class="footer">
+        <div class="social-icons">
+            <div class="social-icon"><img src="/assets/instagram.png" alt="Instagram"></div>
+            <div class="social-icon"><img src="/assets/github.png" alt="Github"></div>
+            <div class="social-icon"><img src="/assets/discord.png" alt="Discord"></div>
+            <div class="social-icon"><img src="/assets/linkedin.png" alt="Linked In"></div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-title">JeniusAcademy</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Help</div>
+                <div class="footer-link">FAQ</div>
+                <div class="footer-link">Testimony</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Product</div>
+                <div class="footer-link">Subscription</div>
+                <div class="footer-link">Best Selling</div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-title">Contact Us</div>
+                <div class="footer-link">gabriel.jonathan@binus.ac.id</div>
+                <div class="footer-link">085271977635</div>
+            </div>
+        </div>
+        <hr class="footer-line">
+        <div class="footer-bottom">
+                <p class="footer-description">JeniusAcademy is an online learning platform that offers a seamless learning experience, personalized tutoring, diverse exercises, and a robust progress tracker to help students excel in their studies. With JeniusAcademy, users enjoy an engaging and efficient learning environment supported by advanced technology.</p>
+        </div>
+    </div>
+    <script src="/js/learn.js"></script>
+</body>
+</html>
